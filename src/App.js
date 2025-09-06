@@ -17,6 +17,7 @@ import { CartProvider } from './contexts/CartContext';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter } from "react-router-dom";
+import Chatbot from "./Chatbot";
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -116,6 +117,12 @@ function AppRoutes() {
           <ProtectedRoute>
             <Purchases orders={orders} />
           </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/chatbot"
+        element={
+         <Chatbot/>
         }
       />
       <Route

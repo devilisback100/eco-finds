@@ -3,6 +3,7 @@ import { ChevronRight, Leaf, Recycle, Users, Star, ArrowRight, TrendingUp } from
 import ProductCard from "../components/ProductCard";
 import SearchBar from "../components/SearchBar";
 import CategoryFilter from "../components/CategoryFilter";
+import Chatbot from "../Chatbot";
 import "./Home.css";
 
 export default function Home({ products, onSearch, onFilter, selectedCategory }) {
@@ -67,6 +68,9 @@ export default function Home({ products, onSearch, onFilter, selectedCategory })
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <Chatbot/>
             </section>
 
             {/* Stats Section */}
