@@ -1,0 +1,14 @@
+.purchases {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.purchases h2 {
+    margin-bottom: 16px;
+}
+
+.purchases ul {
+    list-style: none;
+    padding: 0;
+}

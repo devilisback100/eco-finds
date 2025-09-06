@@ -1,0 +1,21 @@
+.notfound {
+    text-align: center;
+    padding: 40px;
+}
+
+.notfound h1 {
+    font-size: 4rem;
+    margin-bottom: 12px;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 16px;
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home:hover {
+    text-decoration: underline;
+}
